@@ -10,7 +10,7 @@
         "symfony/polyfill-php73": "*"
     },
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^7.1 || ^8.0",
         "ext-pdo_sqlite": "*",
         "composer/package-versions-deprecated": "^1.8",
         "doctrine/doctrine-bundle": "^2.0",
@@ -35,7 +35,7 @@
         "symfony/translation": "^5.2",
         "symfony/twig-pack": "^1.0",
         "symfony/validator": "^5.2",
-        "symfony/webpack-encore-bundle": "^1.4",
+        "symfony/webpack-encore-bundle": "^1.11",
         "symfony/yaml": "^5.2",
         "tgalopin/html-sanitizer-bundle": "^1.2",
         "twig/intl-extra": "^3.0",

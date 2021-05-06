@@ -20,6 +20,8 @@ Encore
     // whenever the contents of that file change. This allows you to use aggressive
     // caching strategies. Use Encore.isProduction() to enable it only for production.
     .enableVersioning(false)
+    .addEntry('home', ['./assets/Homepage/jquery.js' ,'./assets/Homepage/nicepage.js'])
+    .addStyleEntry('homestyle',['./assets/Homepage/Acceuil.css' ,'./assets/Homepage/Homepage.css'] )
     .addEntry('app', './assets/js/app.js')
     .addEntry('login', './assets/js/login.js')
     .addEntry('admin', './assets/js/admin.js')

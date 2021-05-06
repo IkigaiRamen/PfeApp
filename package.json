@@ -14,7 +14,8 @@
     "lato-font": "^3.0.0",
     "node-sass": "^4.9.3",
     "sass-loader": "^9.0.1",
-    "typeahead.js": "^0.11.1"
+    "typeahead.js": "^0.11.1",
+    "webpack": "^5.36.2"
   },
   "license": "MIT",
   "private": true,
@@ -23,5 +24,8 @@
     "dev": "encore dev",
     "watch": "encore dev --watch",
     "build": "encore production --progress"
+  },
+  "dependencies": {
+    "yarn": "^1.22.10"
   }
 }
