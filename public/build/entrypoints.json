@@ -11,6 +11,17 @@
         "/build/home.js"
       ]
     },
+    "loginjs": {
+      "js": [
+        "/build/runtime.js",
+        "/build/vendors-node_modules_jquery_dist_jquery_js.js",
+        "/build/vendors-node_modules_core-js_internals_add-to-unscopables_js-node_modules_core-js_internals_a-88c411.js",
+        "/build/vendors-node_modules_core-js_modules_es_string_replace_js.js",
+        "/build/vendors-node_modules_core-js_modules_es_object_to-string_js-node_modules_core-js_modules_es_s-eeaec9.js",
+        "/build/vendors-node_modules_core-js_modules_es_array_concat_js-node_modules_core-js_modules_es_array-e29556.js",
+        "/build/loginjs.js"
+      ]
+    },
     "app": {
       "js": [
         "/build/runtime.js",
@@ -60,6 +71,14 @@
       ],
       "css": [
         "/build/homestyle.css"
+      ]
+    },
+    "loginstyle": {
+      "js": [
+        "/build/runtime.js"
+      ],
+      "css": [
+        "/build/loginstyle.css"
       ]
     }
   }

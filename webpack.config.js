@@ -22,6 +22,9 @@ Encore
     .enableVersioning(false)
     .addEntry('home', ['./assets/Homepage/jquery.js' ,'./assets/Homepage/nicepage.js'])
     .addStyleEntry('homestyle',['./assets/Homepage/Acceuil.css' ,'./assets/Homepage/Homepage.css'] )
+    .addStyleEntry('loginstyle','./assets/LoginSignup/Connexion-Inscription.css' )
+    .addEntry('loginjs', ['./assets/LoginSignup/nicepage.js','./assets/HomePage/jquery.js'])
+
     .addEntry('app', './assets/js/app.js')
     .addEntry('login', './assets/js/login.js')
     .addEntry('admin', './assets/js/admin.js')
